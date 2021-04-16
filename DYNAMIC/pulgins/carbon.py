@@ -30,8 +30,8 @@ from googleapiclient.errors import HttpError
 from googletrans import LANGUAGES, Translator
 from gtts import gTTS
 from emoji import get_emoji_regexp
-from userbot import CMD_HELP, BOTLOG, BOTLOG_CHATID, YOUTUBE_API_KEY, CHROME_DRIVER, GOOGLE_CHROME_BIN
-from userbot.utils import register
+from DYNAMIC import CMD_HELP, BOTLOG, BOTLOG_CHATID, YOUTUBE_API_KEY, CHROME_DRIVER, GOOGLE_CHROME_BIN
+from DYNAMIC.utils import register
 
 
 CARBONLANG = "auto"

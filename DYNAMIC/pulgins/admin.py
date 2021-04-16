@@ -27,8 +27,8 @@ from telethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
                                ChatBannedRights, MessageEntityMentionName,
                                MessageMediaPhoto)
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot 
-from userbot.utils import register, errors_handler, admin_cmd
+from DYNAMIC import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot 
+from DYNAMIC.utils import register, errors_handler, admin_cmd
 
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
@@ -308,8 +308,8 @@ async def _(event):
 async def muter(moot):
     """ Used for deleting the messages of muted people """
     try:
-        from userbot.modules.sql_helper.spam_mute_sql import is_muted
-        from userbot.modules.sql_helper.gmute_sql import is_gmuted
+        from DYNAMIC.modules.sql_helper.spam_mute_sql import is_muted
+        from DYNAMIC.modules.sql_helper.gmute_sql import is_gmuted
     except AttributeError:
         return
     muted = is_muted(moot.chat_id)

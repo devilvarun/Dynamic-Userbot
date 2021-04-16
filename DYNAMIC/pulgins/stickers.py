@@ -26,8 +26,8 @@ from telethon.tl.types import (
     InputStickerSetShortName,
     MessageMediaPhoto
 )
-from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME
+from DYNAMIC.utils import admin_cmd
+from DYNAMIC import ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check pinned in @XtraTgBot"
 FILLED_UP_DADDY = "Invalid pack selected."

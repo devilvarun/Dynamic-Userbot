@@ -1,6 +1,6 @@
 from telethon import events
 import asyncio
-from userbot.utils import admin_cmd
+from DYNAMIC.utils import admin_cmd
 from telethon.errors.rpcerrorlist import MessageIdInvalidError
 
 

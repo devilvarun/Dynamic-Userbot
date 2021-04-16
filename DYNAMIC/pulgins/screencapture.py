@@ -4,7 +4,7 @@ Syntax: .screencapture <Website URL>"""
 import io
 import requests
 from telethon import events
-from userbot.utils import admin_cmd
+from DYNAMIC.utils import admin_cmd
 
 
 @borg.on(admin_cmd("screencapture (.*)"))

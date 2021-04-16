@@ -5,7 +5,7 @@ from telethon import events
 from datetime import datetime
 import io
 import speedtest
-from userbot.utils import admin_cmd
+from DYNAMIC.utils import admin_cmd
 
 
 @borg.on(admin_cmd("speedtest ?(.*)"))

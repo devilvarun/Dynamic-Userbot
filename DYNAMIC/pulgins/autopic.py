@@ -24,10 +24,10 @@ FONT_FILE_TO_USE = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
 
 @command(pattern="^.autopic", outgoing=True)
 async def autopic(event):
-    downloaded_file_name = "userbot/original_pic.png"
+    downloaded_file_name = "DYNAMIC/original_pic.png"
     downloader = SmartDL(Var.DOWNLOAD_PFP_URL_CLOCK, downloaded_file_name, progress_bar=False)
     downloader.start(blocking=False)
-    photo = "userbot/photo_pfp.png"
+    photo = "DYNAMIC/photo_pfp.png"
     while not downloader.isFinished():
         place_holder = None
     counter = -30

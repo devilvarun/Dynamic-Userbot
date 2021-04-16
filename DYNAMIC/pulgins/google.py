@@ -7,7 +7,7 @@ import re
 from re import findall
 from search_engine_parser import GoogleSearch
 from asyncio import sleep
-from userbot.utils import register
+from DYNAMIC.utils import register
 from telethon.tl.types import DocumentAttributeAudio
 
 @register(outgoing=True, pattern=r"^\.gs (.*)")

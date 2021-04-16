@@ -5,7 +5,7 @@ from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotMo
 import io
 import asyncio
 import time
-from userbot.utils import admin_cmd
+from DYNAMIC.utils import admin_cmd
 import glob
 import os
 try:

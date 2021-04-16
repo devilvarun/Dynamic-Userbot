@@ -1,7 +1,7 @@
 # Copyright (C) 2020 Adek Maulana.
 # All rights reserved.
 """
-   Heroku manager for your userbot
+   Heroku manager for your DYNAMIC
 """
 
 import heroku3
@@ -9,8 +9,8 @@ import asyncio
 import os
 import requests
 import math
-from userbot.utils import register
-from userbot.utils import admin_cmd
+from DYNAMIC.utils import register
+from DYNAMIC.utils import admin_cmd
 
 
 Heroku = heroku3.from_key(Var.HEROKU_API_KEY)
