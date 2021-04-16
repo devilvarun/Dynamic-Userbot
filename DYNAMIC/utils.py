@@ -1,4 +1,4 @@
-from userbot import bot
+from DYNAMIC import bot
 from telethon import events
 from var import Var
 from pathlib import Path
@@ -83,18 +83,18 @@ def load_module(shortname):
         import sys
         import importlib
         from pathlib import Path
-        path = Path(f"userbot/plugins/{shortname}.py")
-        name = "userbot.plugins.{}".format(shortname)
+        path = Path(f"DYNAMIC/plugins/{shortname}.py")
+        name = "DYNAMIC.plugins.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         print("Successfully (re)imported "+shortname)
     else:
-        import userbot.utils
+        import DYNAMIC.utils
         import sys
         import importlib
         from pathlib import Path
-        path = Path(f"userbot/plugins/{shortname}.py")
+        path = Path(f"DYNAMIC/plugins/{shortname}.py")
         name = "DYNAMIC.plugins.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
@@ -104,14 +104,14 @@ def load_module(shortname):
         mod.command = command
         mod.logger = logging.getLogger(shortname)
         # support for uniborg
-        sys.modules["uniborg.util"] = userbot.utils
+        sys.modules["uniborg.util"] = DYNAMIC.utils
         mod.Config = Config
         mod.borg = bot
         # support for paperplaneextended
-        sys.modules["userbot.events"] = userbot.utils
+        sys.modules["DYNAMIC.events"] = DYNAMIC.utils
         spec.loader.exec_module(mod)
         # for imports
-        sys.modules["userbot.plugins."+shortname] = mod
+        sys.modules["DYNAMIC.plugins."+shortname] = mod
         print("Successfully (re)imported "+shortname)
 
 def remove_plugin(shortname):
@@ -122,7 +122,7 @@ def remove_plugin(shortname):
             del LOAD_PLUG[shortname]
 
         except:
-            name = f"userbot.plugins.{shortname}"
+            name = f"DYNAMIC.plugins.{shortname}"
 
             for i in reversed(range(len(bot._event_builders))):
                 ev, cb = bot._event_builders[i]
@@ -177,7 +177,7 @@ def admin_cmd(pattern=None, **args):
     return events.NewMessage(**args)
 
 """ Userbot module for managing events.
- One of the main components of the userbot. """
+ One of the main components of the DYNAMIC. """
 
 from telethon import events
 import asyncio
