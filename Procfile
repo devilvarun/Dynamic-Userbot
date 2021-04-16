@@ -1,1 +1,1 @@
-userbot: python -m userbot
+DYNAMIC: python -m DYNAMIC
