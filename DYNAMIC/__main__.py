@@ -1,13 +1,13 @@
  #Made By Aman Pandey
-from userbot import bot
+from DYNAMIC import bot
 from sys import argv
 import sys
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient
 from var import Var
-from userbot.utils import load_module
-from userbot import LOAD_PLUG, BOTLOG_CHATID, LOGS
+from DYNAMIN.utils import load_module
+from DYNAMIN import LOAD_PLUG, BOTLOG_CHATID, LOGS
 from pathlib import Path
 import asyncio
 import telethon.utils
@@ -40,7 +40,7 @@ else:
     
 
 import glob
-path = 'userbot/plugins/*.py'
+path = 'DYNAMIN/plugins/*.py'
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
@@ -50,7 +50,7 @@ for name in files:
 
 import userbot._core
 
-print("LEGEND BOT is on fire 🔥🔥🔥 all files installed on your bot.... Join @teamishere for any help..")
+print("YOUR USERBOT IS WORKING FINE JOIN OUR GROUP AND CHANNEL")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
