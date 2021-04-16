@@ -5,6 +5,5 @@ import sys
 import time
 from telethon.session import StringSession
 from telethon import TelegramClient
-from Userbot.dynamichelp import Functionop
 from var import var
 dynamic version = "0.0.1"
