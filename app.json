@@ -4,7 +4,7 @@
   "logo": "https://telegra.ph/file/45b6d89879c66d1ee1270.jpg",
     "keywords": [
     "telegram",
-    "userbot",
+    "DYNAMIC",
     "plugin",
     "modular",
     "productivity"
@@ -19,7 +19,7 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
+      "value": "./DYNAMIC/DOWNLOADS/",
       "required": false
     },
     "APP_ID": {
