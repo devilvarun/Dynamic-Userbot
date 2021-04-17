@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 
-from userbot.plugins.sql_helper import BASE, SESSION
+from DYNAMIC.plugins.sql_helper import BASE, SESSION
 
 
 class Warns(BASE):
