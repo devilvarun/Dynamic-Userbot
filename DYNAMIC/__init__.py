@@ -6,7 +6,6 @@ import time
 from telethon.session import StringSession
 from telethon import TelegramClient
 from var import var
-dynamic version = "0.0.1"
 
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
