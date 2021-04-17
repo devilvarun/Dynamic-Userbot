@@ -11,7 +11,7 @@ import re
 
 from telethon import events
 
-import userbot.plugins.sql_helper.blacklist_sql as sql
+import DYNAMIC.plugins.sql_helper.blacklist_sql as sql
 
 
 @bot.on(events.NewMessage(incoming=True))

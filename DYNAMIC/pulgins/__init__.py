@@ -120,7 +120,7 @@ def check_data_base_heal_th():
     output = "No Database is set"
     if not Config.DB_URI:
         return is_database_working, output
-    from userbot.plugins.sql_helper import SESSION
+    from DYNAMIC.plugins.sql_helper import SESSION
 
     try:
         # to check database we will execute raw query
@@ -176,7 +176,7 @@ async def catalive():
         dyno = f"{AppHours}h {AppMinutes}m/{hours}h {minutes}m"
     except Exception as e:
         dyno = e
-    return f"Catuserbot Stats\
+    return f"CatDYNAMIC Stats\
                  \n\nDatabase : {check_sgnirts}\
                   \nSudo : {sudo}\
                   \nUptime : {uptime}\

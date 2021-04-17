@@ -1,5 +1,5 @@
 #    Copyright (C) 2020  sandeep.n(π.$)
-# button post makker for catuserbot thanks to uniborg for the base
+# button post makker for catDYNAMIC thanks to uniborg for the base
 # by @sandy1709 (@mrconfused)
 import os
 import re
@@ -108,10 +108,10 @@ CMD_HELP.update(
     \n\n**Button post helper**\
     \n•  **Syntax : **`.cbutton`\
     \n•  **Function :** __For working of this you need your bot({BOT_USERNAME}) in the group/channel you are using and Buttons must be in the format as [Name on button]<buttonurl:link you want to open> and markdown is Default to html__\
-    \n•  **Example :** `.cbutton test [google]<buttonurl:https://www.google.com> [catuserbot]<buttonurl:https://t.me/catuserbot17:same> [support]<buttonurl:https://t.me/catuserbot_support>`\
+    \n•  **Example :** `.cbutton test [google]<buttonurl:https://www.google.com> [catDYNAMIC]<buttonurl:https://t.me/catDYNAMIC17:same> [support]<buttonurl:https://t.me/catDYNAMIC_support>`\
     \n\n•  **Syntax : **`.ibutton`\
     \n•  **Function :** __Buttons must be in the format as [Name on button]<buttonurl:link you want to open>__\
-    \n•  **Example :** `.ibutton test [google]<buttonurl:https://www.google.com> [catuserbot]<buttonurl:https://t.me/catuserbot17:same> [support]<buttonurl:https://t.me/catuserbot_support>`\
+    \n•  **Example :** `.ibutton test [google]<buttonurl:https://www.google.com> [catDYNAMIC]<buttonurl:https://t.me/catDYNAMIC17:same> [support]<buttonurl:https://t.me/catDYNAMIC_support>`\
     "
     }
 )

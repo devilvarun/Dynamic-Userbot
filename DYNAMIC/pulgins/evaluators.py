@@ -24,7 +24,7 @@ async def _(event):
     stdout, stderr = await process.communicate()
     result = str(stdout.decode().strip()) + str(stderr.decode().strip())
     catuser = await event.client.get_me()
-    curruser = catuser.username or "catuserbot"
+    curruser = catuser.username or "catDYNAMIC"
     uid = os.geteuid()
     if uid == 0:
         cresult = f"`{curruser}:~#` `{cmd}`\n`{result}`"
@@ -107,7 +107,7 @@ CMD_HELP.update(
         \n\n  •  **Synatax : **`.eval <expr>`:\
         \n  •  **Function : **__Execute Python script.__\
         \n\n  •  **Synatax : **`.exec <command>`:\
-        \n  •  **Function : **__Execute a Terminal command on catuserbot server and shows details.__\
+        \n  •  **Function : **__Execute a Terminal command on catDYNAMIC server and shows details.__\
      "
     }
 )

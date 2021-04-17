@@ -20,7 +20,7 @@ async def install(event):
         try:
             downloaded_file_name = await event.client.download_media(
                 await event.get_reply_message(),
-                "userbot/plugins/",
+                "DYNAMIC/plugins/",
             )
             if "(" not in downloaded_file_name:
                 path1 = Path(downloaded_file_name)
@@ -72,7 +72,7 @@ async def send(event):
     if os.path.exists(thumb_image_path):
         thumb = thumb_image_path
     input_str = event.pattern_match.group(1)
-    the_plugin_file = f"./userbot/plugins/{input_str}.py"
+    the_plugin_file = f"./DYNAMIC/plugins/{input_str}.py"
     if os.path.exists(the_plugin_file):
         start = datetime.now()
         caat = await event.client.send_file(
@@ -112,7 +112,7 @@ async def unload(event):
     if event.fwd_from:
         return
     shortname = event.pattern_match.group(1)
-    path = Path(f"userbot/plugins/{shortname}.py")
+    path = Path(f"DYNAMIC/plugins/{shortname}.py")
     if not os.path.exists(path):
         return await edit_delete(
             event, f"There is no plugin with path {path} to uninstall it"

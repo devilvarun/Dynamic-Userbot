@@ -1,4 +1,4 @@
-# Urban Dictionary for catuserbot by @mrconfused
+# Urban Dictionary for catDYNAMIC by @mrconfused
 from PyDictionary import PyDictionary
 
 from . import AioHttp

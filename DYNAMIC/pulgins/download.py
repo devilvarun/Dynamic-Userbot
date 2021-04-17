@@ -1,4 +1,4 @@
-# Download plugin for catuserbot
+# Download plugin for catDYNAMIC
 
 import asyncio
 import base64

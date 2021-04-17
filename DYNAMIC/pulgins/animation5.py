@@ -1,4 +1,4 @@
-# https://github.com/Jisan09/catuserbot credits to @Jisan7509
+# https://github.com/Jisan09/catDYNAMIC credits to @Jisan7509
 
 import asyncio
 
@@ -86,12 +86,12 @@ async def _(event):
         "😧",
         "😡",
         "😢",
-        "‎**Repo of catuserbot**",
+        "‎**Repo of catDYNAMIC**",
         "😁",
         "😧",
         "😡",
         "😢",
-        "__**[Good to see you guys....]**__(github.com/sandy1709/catuserbot)",
+        "__**[Good to see you guys....]**__(github.com/sandy1709/catDYNAMIC)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)

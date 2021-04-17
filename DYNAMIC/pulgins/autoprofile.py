@@ -27,9 +27,9 @@ DEFAULTUSER = AUTONAME or Config.ALIVE_NAME
 
 FONT_FILE_TO_USE = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
 
-autopic_path = os.path.join(os.getcwd(), "userbot", "original_pic.png")
-digitalpic_path = os.path.join(os.getcwd(), "userbot", "digital_pic.png")
-autophoto_path = os.path.join(os.getcwd(), "userbot", "photo_pfp.png")
+autopic_path = os.path.join(os.getcwd(), "DYNAMIC", "original_pic.png")
+digitalpic_path = os.path.join(os.getcwd(), "DYNAMIC", "digital_pic.png")
+autophoto_path = os.path.join(os.getcwd(), "DYNAMIC", "photo_pfp.png")
 
 digitalpfp = Config.DIGITAL_PIC or "https://telegra.ph/file/aeaebe33b1f3988a0b690.jpg"
 

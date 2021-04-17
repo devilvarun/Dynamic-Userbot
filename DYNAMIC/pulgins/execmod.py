@@ -79,7 +79,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    cmd = "ls userbot/plugins"
+    cmd = "ls DYNAMIC/plugins"
     eply_to_id = event.message.id
     if event.reply_to_msg_id:
         eply_to_id = event.reply_to_msg_id

@@ -1,4 +1,4 @@
-# corona virus stats for catuserbot
+# corona virus stats for catDYNAMIC
 from covid import Covid
 
 from . import covidindia

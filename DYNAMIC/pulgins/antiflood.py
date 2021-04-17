@@ -3,7 +3,7 @@ import asyncio
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
-import userbot.plugins.sql_helper.antiflood_sql as sql
+import DYNAMIC.plugins.sql_helper.antiflood_sql as sql
 
 CHAT_FLOOD = sql.__load_flood_settings()
 # warn mode for anti flood
