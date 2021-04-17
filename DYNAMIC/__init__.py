@@ -2,10 +2,10 @@
 #Dont Kang Otherwise You Will Get A Bad Gift
 import os
 import sys
-import time
-from telethon.session import StringSession
+from telethon.sessions import StringSession
 from telethon import TelegramClient
-from var import var
+
+from var import Var
 
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
@@ -15,12 +15,14 @@ else:
     session_name = "startup"
     bot = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
 
+
 CMD_LIST = {}
 # for later purposes
 CMD_HELP = {}
 INT_PLUG = ""
 LOAD_PLUG = {}
 
+# PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 """ PPE initialization. """
 
@@ -57,14 +59,6 @@ if bool(ENV):
         quit(1)
 
     # Logging channel/group configuration.
-    BOTLOG_CHATID = os.environ.get("BOTLOG_CHATID", None)
-    try:
-        BOTLOG_CHATID = int(BOTLOG_CHATID)
-    except:
-        pass
-
-    # Userbot logging feature switch.
-    BOTLOG = sb(os.environ.get("BOTLOG", "False"))
     BOTLOG_CHATID = os.environ.get("BOTLOG_CHATID", None)
     try:
         BOTLOG_CHATID = int(BOTLOG_CHATID)
@@ -149,7 +143,7 @@ else:
 # and giving them correct perms to work properly.
 if not os.path.exists('bin'):
     os.mkdir('bin')
-    
+
 binaries = {
     "https://raw.githubusercontent.com/yshalsager/megadown/master/megadown":
     "bin/megadown",
@@ -170,6 +164,3 @@ LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
-# End of PaperPlaneExtended Support Vars
-#EVERTHING CODED BY AMAN APNDEY
-# DONT KANG THIS
