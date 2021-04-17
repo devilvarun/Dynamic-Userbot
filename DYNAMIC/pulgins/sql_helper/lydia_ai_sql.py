@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Numeric, UnicodeText
 
-from userbot.plugins.sql_helper import BASE, SESSION
+from DYNAMIC.plugins.sql_helper import BASE, SESSION
 
 
 class LydiaAI(BASE):
