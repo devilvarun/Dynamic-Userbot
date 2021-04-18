@@ -1,4 +1,4 @@
-# made by LEGENDX22
+# made by DYNAMICX22
 #MODIFIED BY GODBOYX
 # KANG KRNA H TO CREDITS DEDENA 
 '''
@@ -66,7 +66,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
-GIT_REPO_NAME = "LEGEND-BOT"
+GIT_REPO_NAME = "DYNAMIC-BOT"
 heroku_api = "https://api.heroku.com"
 UPSTREAM_REPO_URL="https://github.com/DynamicUserbot/Dynamic-Userbot"
 
@@ -284,4 +284,4 @@ from DYNAMIC.utils import admin_cmd
 @borg.on(admin_cmd(pattern="update|update now"))
 async def hehe (event):
   await event.edit("want to update your bot ?\nnow not use update now use \n`.restart` only")
-#maked by LEGENDX22 🔥🔥🔥⚡⚡⚡⚡
+#maked by DYNAMICX22 🔥🔥🔥⚡⚡⚡⚡

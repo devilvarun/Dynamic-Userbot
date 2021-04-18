@@ -1,14 +1,14 @@
-# COPYRIGHT © BY LEGENDX22
+# COPYRIGHT © BY DYNAMICX22
 
 """
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DYNAMICX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DYNAMICX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DYNAMICX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DYNAMICX22)))))))))))))))))))))))))))
 
-                 MADE BY LEGENDX22
+                 MADE BY DYNAMICX22
                  IDEA BY PROBOYX
-                 CREDITS TEAMLEGEND
+                 CREDITS TEAMDYNAMIC
                  PLEASE KEEP CREDITS 🥺
 """
 
@@ -28,5 +28,5 @@ async def inline_id_handler(event: events.InlineQuery.Event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"obhai")))
 async def callback_query_handler(event): 
 
-# inline by LEGENDX22 and PROBOYX 🔥
+# inline by DYNAMICX22 and PROBOYX 🔥
   await event.edit(text=f"DYNAMIC REPO AND GROUP LINK",buttons=[[Button.url(f"🔥DYNAMIC REPO🔥", url="https://github.com/DynamicUserbot/Dynamic-Userbot"), Button.url(f"⚡DYNAMIC SUPPORT⚡", url="https://t.me/DYNAMIC_USERBOT_SUPPORT")]])
