@@ -94,12 +94,12 @@ async def gspider(DYNAMIC):
             await DYNAMIC.client(BlockRequest(user))
         except:
             pass
-        testuserbot = [
+        testDYNAMIC = [
             d.entity.id
             for d in await DYNAMIC.client.get_dialogs()
             if (d.is_group or d.is_channel)
         ]
-        for i in testuserbot:
+        for i in testDYNAMIC:
             try:
                 await DYNAMIC.client.edit_permissions(i, user, view_messages=False)
                 a += 1
@@ -158,12 +158,12 @@ async def gspider(DYNAMIC):
             await DYNAMIC.client(UnblockRequest(user))
         except:
             pass
-        testuserbot = [
+        testDYNAMIC = [
             d.entity.id
             for d in await DYNAMIC.client.get_dialogs()
             if (d.is_group or d.is_channel)
         ]
-        for i in testuserbot:
+        for i in testDYNAMIC:
             try:
                 await DYNAMIC.client.edit_permissions(i, user, send_messages=True)
                 a += 1

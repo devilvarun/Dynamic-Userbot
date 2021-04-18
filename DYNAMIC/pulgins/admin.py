@@ -452,7 +452,7 @@ async def muter(moot):
 @borg.on(admin_cmd(pattern=r"ungmute(?: |$)(.*)"))
 @errors_handler
 async def ungmoot(un_gmute):
-    """ For .ungmute command, ungmutes the target in the userbot """
+    """ For .ungmute command, ungmutes the target in the DYNAMIC """
     # Admin or creator check
     chat = await un_gmute.get_chat()
     admin = chat.admin_rights
