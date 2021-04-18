@@ -1,6 +1,5 @@
-# make by DYNAMICX22 🔥🔥
-# MAKE BY DYNAMIC X
-#make for DYNAMIC BOT
+# made by LEGENDX22
+#MODIFIED BY GODBOYX
 # KANG KRNA H TO CREDITS DEDENA 
 '''
 from datetime import datetime
@@ -67,9 +66,9 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
-GIT_REPO_NAME = "DYNAMIC-BOT"
+GIT_REPO_NAME = "LEGEND-BOT"
 heroku_api = "https://api.heroku.com"
-UPSTREAM_REPO_URL="https://github.com/DYNAMICx22/DYNAMIC-BOT"
+UPSTREAM_REPO_URL="https://github.com/DynamicUserbot/Dynamic-Userbot"
 
 # ================= CONSTANT =================
 JAVES_NNAME = str(HEROKU_APPNAME)
@@ -164,7 +163,7 @@ async def upstream(ups):
         if conf != "now":
             await ups.edit(
                 f"`Unfortunately, the directory {error} does not seem to be a git repository.\
-            \nBut we can fix that by force updating the DYNAMIC using .update now.`"
+            \nBut we can fix that by force updating the userbot using .update now.`"
             )
             return
         repo = Repo.init()
@@ -221,7 +220,7 @@ async def upstream(ups):
 
     if force_update:
         await ups.edit(
-            '`Force-Syncing to latest stable DYNAMIC code, please wait...`')
+            '`Force-Syncing to latest stable userbot code, please wait...`')
     else:
         await ups.edit('`Finiding your heroku app.....`')
     # We're in a Heroku Dyno, handle it's memez.
@@ -232,7 +231,7 @@ async def upstream(ups):
         heroku_applications = heroku.apps()
         if not HEROKU_APPNAME:
             await ups.edit(
-                '`Please set up the HEROKU_APPNAME variable to be able to update DYNAMIC.`'
+                '`Please set up the HEROKU_APPNAME variable to be able to update userbot.`'
             )
             repo.__del__()
             return
@@ -242,7 +241,7 @@ async def upstream(ups):
                 break
         if heroku_app is None:
             await ups.edit(
-                f'{txt}\n`Invalid Heroku credentials for updating DYNAMIC dyno.`'
+                f'{txt}\n`Invalid Heroku credentials for updating userbot dyno.`'
             )
             repo.__del__()
             return
@@ -276,7 +275,7 @@ async def upstream(ups):
         await ups.edit('`Successfully Updated!\n'
                        'restarting......`')
         # Spin a new instance of bot
-        args = [sys.executable, "-m", "DYNAMIC"]
+        args = [sys.executable, "-m", "userbot"]
         execle(sys.executable, *args, environ)
         return
 
@@ -285,4 +284,4 @@ from DYNAMIC.utils import admin_cmd
 @borg.on(admin_cmd(pattern="update|update now"))
 async def hehe (event):
   await event.edit("want to update your bot ?\nnow not use update now use \n`.restart` only")
-#maked by DYNAMICX22 🔥🔥🔥⚡⚡⚡⚡
+#maked by LEGENDX22 🔥🔥🔥⚡⚡⚡⚡
