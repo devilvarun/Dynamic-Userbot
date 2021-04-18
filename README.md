@@ -10,6 +10,3 @@ CATBOT, DYNAMIC BOT, XTRABOT
 
 PROBOT,DEVIL VARUN
 
-#DEPLOY 
-
-https://github.com/DynamicUserbot/Dynamic-Userbot
