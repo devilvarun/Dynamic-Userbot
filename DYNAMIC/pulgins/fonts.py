@@ -1,4 +1,4 @@
-# Added more fonts by @legendx22
+# Added more fonts by @DYNAMICx22
 # Ported from saitama i guess
 
 from telethon import events

@@ -109,7 +109,7 @@ async def _(event):
         usname = replied_user.user.username
         idd = reply_message.sender_id
         if idd==1100231654:
-            await event.edit("This is My Master\n**How dare you trying to tell me to kill master nigger!**\n\n__Your account is on hold! Pay 99$ to my master__ [LEGENDX](https://t.me/legendx22) __to release your account__😏")
+            await event.edit("This is My Master\n**How dare you trying to tell me to kill master nigger!**\n\n__Your account is on hold! Pay 99$ to my master__ [LEGENDX](https://t.me/DYNAMICx22) __to release your account__😏")
         else:
             await event.edit("`K i l l i n g . . . . . . .`")
             animation_chars = [

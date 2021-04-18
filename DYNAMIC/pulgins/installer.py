@@ -1,4 +1,4 @@
-# MADE BY @GODBOX AND @legendx22
+# MADE BY @GODBOX AND @DYNAMICx22
 from DYNAMIC import bot, CMD_HELP, CMD_LIST
 from telethon import events
 from DYNAMIC.utils import remove_plugin, load_module, register

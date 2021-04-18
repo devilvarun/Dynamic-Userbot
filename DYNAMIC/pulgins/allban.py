@@ -1,4 +1,4 @@
-#originally created by legendx22
+#originally created by DYNAMICx22
 
 #team LEGEND
 from asyncio import sleep
