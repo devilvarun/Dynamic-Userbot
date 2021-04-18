@@ -20,7 +20,7 @@ async def _(event):
         if len(song) == 1:
             await event.edit("Usage: .lyrics Duman - Haberin Yok 脰l眉yorum")
         else:
-            await event.edit("馃攳锔嶴earching lyrics By LEGENDBOT")
+            await event.edit("馃攳锔嶴earching lyrics By DYNAMICBOT")
             lyrics = PyLyrics.getLyrics(song[0].strip(), song[1].strip()).split("\n")
             lyric_message = f"Singing {song[0].strip()} from {song[1].strip()} 馃帣"
             lyric_message += "\n\n" + "\n".join(lyrics)

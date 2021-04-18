@@ -1,8 +1,8 @@
-# made by @Alain_Champion and TEAMLEGEND
-# Credites :- @LEGENDX22 , @PROBOYX
+# made by @Alain_Champion and TEAMDYNAMIC
+# Credites :- @DYNAMICX22 , @PROBOYX
 # if you kang this please keep credits
 
-# SPECIES THANKS TEAMLEGEND
+# SPECIES THANKS TEAMDYNAMIC
 
 import os
 import time
@@ -20,11 +20,11 @@ import re
 import io
 from platform import python_version, uname
 @bot.on(admin_cmd(pattern="wish ?(.*)"))
-async def LEGENDBOT(event):
-    LEGENDX = event.pattern_match.group(1)
+async def DYNAMICBOT(event):
+    DYNAMICX = event.pattern_match.group(1)
     PROBOY = random.randint(0, 100)
-    if LEGENDX:
-        reslt = f'''🦋 Yᴏᴜʀ ᴡɪsʜ ʜᴀs ʙᴇᴇɴ ᴄᴀsᴛᴇᴅ 🦋\n\n\n☘️ 𝐘𝐨𝐮𝐫 𝐖𝐢𝐬𝐡 ➪ **`{LEGENDX}`** ✨
+    if DYNAMICX:
+        reslt = f'''🦋 Yᴏᴜʀ ᴡɪsʜ ʜᴀs ʙᴇᴇɴ ᴄᴀsᴛᴇᴅ 🦋\n\n\n☘️ 𝐘𝐨𝐮𝐫 𝐖𝐢𝐬𝐡 ➪ **`{DYNAMICX}`** ✨
               \n\n🔥𝙲𝙷𝙰𝙽𝙲𝙴 𝙾𝙵 𝚂𝚄𝙲𝙲𝙴𝚂𝚂 : **{PROBOY}%**'''
     else:
         if event.is_reply:

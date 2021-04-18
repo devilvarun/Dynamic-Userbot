@@ -5,7 +5,7 @@
 """
 DYNAMIC module to help you manage a group
 """
-#credits LEGENDX22
+#credits DYNAMICX22
 from asyncio import sleep
 from os import remove
 
@@ -25,7 +25,7 @@ from telethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
 from DYNAMIC import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from DYNAMIC.utils import register, errors_handler
 from DYNAMIC.utils import admin_cmd
-from LEGENDX import NAME, MASTER, BOT
+from DYNAMICX import NAME, MASTER, BOT
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
@@ -133,7 +133,7 @@ async def promote(promt):
     await promt.edit("`Promoting...`")
     user, rank = await get_user_from_event(promt)
     if not rank:
-        rank = "LEGEND BOY"  # Just in case.
+        rank = "DYNAMIC BOY"  # Just in case.
     if user:
         pass
     else:

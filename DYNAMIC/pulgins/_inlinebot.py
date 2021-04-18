@@ -62,7 +62,7 @@ async def cmd_list(event):
 
                         allow_cache=False,
 
-                        caption="COMMANDS In LEGEND BOT",
+                        caption="COMMANDS In DYNAMIC BOT",
 
                         reply_to=reply_to_id
 
@@ -172,7 +172,7 @@ async def _(event):
 
         help_string = CMD_LIST[plugin_name].doc
 
-        unload_string = f"Use .unload {plugin_name} to remove this plugin.\n           Â© LEGEND BOT"
+        unload_string = f"Use .unload {plugin_name} to remove this plugin.\n           Â© DYNAMIC BOT"
 
         
 

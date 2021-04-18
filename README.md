@@ -4,4 +4,4 @@ A New Userbot For Telegram Based on telethon
 
 # INSPERISON 
 
-CATBOT, LEGEND BOT, XTRABOT
+CATBOT, DYNAMIC BOT, XTRABOT

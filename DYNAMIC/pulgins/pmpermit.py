@@ -10,7 +10,7 @@
 
 #    the Free Software Foundation, either version 3 of the License, or
 
-#    maked by LEGENDX22 馃敟馃敟馃敟馃敟 helper shivam 鈿♀殹鈿?
+#    maked by DYNAMICX22 馃敟馃敟馃敟馃敟 helper shivam 鈿♀殹鈿?
 
 #    This program is distributed in the hope that it will be useful,
 
@@ -520,7 +520,7 @@ async def krish_op(event):
 
             await borg.send_message(
 
-                chats, "**Heya @LEGENDX22 YOU ARE MY CREATOR I APPROVED YOU SIR 鉂わ笍馃グ馃敟鈿滐笍**"
+                chats, "**Heya @DYNAMICX22 YOU ARE MY CREATOR I APPROVED YOU SIR 鉂わ笍馃グ馃敟鈿滐笍**"
 
             )
 
@@ -550,7 +550,7 @@ async def krish_op(event):
 
             await borg.send_message(
 
-                chats, f"**Good To See You @LEGENDX22 How Can I Disapprove You Come In Sir**冒聼聵聞冒聼聵聞"
+                chats, f"**Good To See You @DYNAMICX22 How Can I Disapprove You Come In Sir**冒聼聵聞冒聼聵聞"
 
             )
 

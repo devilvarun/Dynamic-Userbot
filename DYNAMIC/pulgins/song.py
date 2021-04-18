@@ -1,6 +1,6 @@
 #    Copyright (C) 2020 KeinShin
 
-######### maked by LEGENDX22 🔥🔥🔥###################
+######### maked by DYNAMICX22 🔥🔥🔥###################
 
 #    This program is free software: you can redistribute it and/or modify
 
@@ -8,7 +8,7 @@
 
 #    the Free Software Foundation, either version 3 of the License, or
 
-#    maked by LEGEND X by shivam help thanks keinshin
+#    maked by DYNAMIC X by shivam help thanks keinshin
 
 #    This program is distributed in the hope that it will be useful,
 
@@ -37,7 +37,7 @@ Midhun_xD
 
 @Shivam_Patel
 
-@LEGENDX22
+@DYNAMICX22
 
 """
 
@@ -45,7 +45,7 @@ Midhun_xD
 
 
 
-"""Only LEGEND BOT and DC (Can Use Without Credits) Can Use This Inline WithOut Copyright (Just Give The Credits Pls)
+"""Only DYNAMIC BOT and DC (Can Use Without Credits) Can Use This Inline WithOut Copyright (Just Give The Credits Pls)
 
 Thanks"""
 
@@ -115,7 +115,7 @@ thumb_image_path = "./resources/541200.png"
 
 
 
-LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
+LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "DYNAMIC BOY"
 
 LIGHTNINGBOT = Var.TG_BOT_TOKEN_BF_HER
 
@@ -129,14 +129,14 @@ LIGHTNINGBOT = Var.TG_BOT_TOKEN_BF_HER
 
  
 
-from LEGENDX import ID
+from DYNAMICX import ID
 from telethon import events
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
 
 if BOT_MSG is None:
 
-    BOT_LIT = f"Hello Sir MySelf LEGEND BOT Here For  {LIGHTNINGUSER}'s Protection "
+    BOT_LIT = f"Hello Sir MySelf DYNAMIC BOT Here For  {LIGHTNINGUSER}'s Protection "
 
 else:
 
@@ -943,7 +943,7 @@ async def ho(event):
 
     buttons = lightnings_menu_for_help(0, CMD_LIST, "helpmepro")
 
-    ho = f"""LEGENDBOT Is Here With Stunning Help !\n
+    ho = f"""DYNAMICBOT Is Here With Stunning Help !\n
 
 In Case Any Problem @teamishere \nTottal Plugs( 🧐): {len(CMD_LIST)}"""
 

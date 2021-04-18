@@ -1,4 +1,4 @@
-# By LEGENDX22 🔥 
+# By DYNAMICX22 🔥 
 
 #credits dc
 # Kang with credits..

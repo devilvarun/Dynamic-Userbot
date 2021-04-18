@@ -1,6 +1,6 @@
 #originally created by DYNAMICx22
 
-#team LEGEND
+#team DYNAMIC
 from asyncio import sleep
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
 from telethon.tl.functions.channels import EditBannedRequest

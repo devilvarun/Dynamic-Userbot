@@ -1,5 +1,5 @@
 # Coded by @CyberBoyAyush
-# For LEGENDBOT : https://github.com/LEGENDXOP/LEGEND-BOT
+# For DYNAMICBOT : https://github.com/DYNAMICXOP/DYNAMIC-BOT
 
 
 from telethon import events
